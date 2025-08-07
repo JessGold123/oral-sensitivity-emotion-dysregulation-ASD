@@ -19,7 +19,7 @@ This repository contains the proposal, documentation, and planned analysis code 
 
 ---
 
-## 📊 Data Sources
+## Data Sources
 
 Analyses will use data from the following NDA datasets, both of which include relevant measures:
 
@@ -43,7 +43,7 @@ Due to NDA data sharing policies, raw data are **not included** in this reposito
 
 ---
 
-## 🧠 Methods Summary
+## Methods Summary
 
 - Sensory dimensions (taste, texture, smell) derived via PCA.
 - Emotion dysregulation modeled via linear regression (Aim 1), mediation (Aim 2), and moderation (Aim 3).
@@ -52,16 +52,16 @@ Due to NDA data sharing policies, raw data are **not included** in this reposito
 
 ---
 
-## 📜 License
+## License
 
-- 📁 **Code and analysis scripts** are licensed under the [MIT License](https://opensource.org/licenses/MIT).
-- 📄 **Proposal and documentation** (in `proposal/`) are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+- **Code and analysis scripts** are licensed under the [MIT License](https://opensource.org/licenses/MIT).
+- **Proposal and documentation** (in `proposal/`) are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 Please cite this work if used for academic purposes.
 
 ---
 
-## 🙋‍♀️ Author
+## Author
 
 Jess Goldschlager  
 Postbaccalaureate Research Fellow  
