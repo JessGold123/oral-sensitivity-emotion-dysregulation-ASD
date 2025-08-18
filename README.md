@@ -1,31 +1,45 @@
-# The Taste of Regulation: Oral Sensitivity, Selective Eating, and Emotion Dysregulation in Autism
+# The Taste of Regulation: Oral Sensitivity, Emotion Dysregulation, and Family Context in Autism
 
 ## Overview
 
-This repository contains the proposal, documentation, and planned analysis code for a project exploring how oral sensory sensitivity contributes to emotion dysregulation in children with autism spectrum disorder (ASD). Drawing on data from the NIH Data Archive (NDA), the project tests a mediation model with selective eating as a pathway and examines how parental mental health moderates these effects. The goal is to better understand sensory-emotional pathways in autism and how they interact with family context.
+This repository contains the proposal, documentation, and planned analysis code for a project exploring how oral sensory sensitivity contributes to emotion dysregulation in children with autism spectrum disorder (ASD). The study leverages large-scale data from the NIH Data Archive (NDA) and applies a systems-level perspective by examining both child traits and family context.
+
+Novel aspects of this project include:
+- **Data-driven measurement**: Harmonizing oral/taste/smell items across multiple Sensory Profile variants using principal components analysis (PCA).
+- **Focus on emotion regulation**: Positioning oral sensory sensitivity as a regulatory trait, moving beyond feeding behavior alone.
+- **Family systems perspective**: Testing parental mental health as a moderator of child outcomes.
+- **Exploratory pathways**: Evaluating selective eating as a potential mediator between sensory sensitivity and dysregulation.
 
 ---
 
 ## Project Aims
 
-**Aim 1**: Test whether oral sensory sensitivity (taste, texture, smell) is associated with increased emotion dysregulation in autistic children.  
-> _Hypothesis_: Greater oral sensitivity will predict higher scores on CBCL emotion dysregulation subscales.
+**Aim 1** (Direct Effects): Test whether oral sensory sensitivities is associated with increased emotion dysregulation in autistic children.  
+> _Hypothesis_: Greater oral sensitivity will predict higher scores on the CBCL Dysregulation Profile.
 
-**Aim 2**: Test whether selective eating mediates the relationship between oral sensory sensitivity and emotion dysregulation.  
-> _Hypothesis_: The effect of oral sensitivity on dysregulation will be partially explained by selective eating behaviors.
+**Aim 2** (Moderation): Test whether parental mental health moderates the relationship between selective eating and emotion dysregulation. 
+> _Hypothesis_: Associations will be stronger when parental mental health challenges are higher.
 
-**Aim 3**: Test whether parental mental health moderates the relationship between selective eating and emotion dysregulation.  
-> _Hypothesis_: The selective eating–dysregulation link will be stronger when parental mental health challenges are higher.
+**Aim 3** (Exploratory Mediation): Test whether selective eating mediates the relationship between oral sensory sensitivity and emotion dysregulation.   
+> _Hypothesis_: Selective eating will account for part of the association. Analyses will be framed as hypothesis-generating.
 
 ---
 
 ## Data Sources
 
 Analyses will use data from the following NDA datasets, both of which include relevant measures:
-
+- [NDA Study #2021](https://nda.nih.gov/edit_collection.html?id=2021)
+- [NDA Study #2026](https://nda.nih.gov/edit_collection.html?id=2026)
+- [NDA Study #2251](https://nda.nih.gov/edit_collection.html?id=2251)
+- [NDA Study #2253](https://nda.nih.gov/edit_collection.html?id=2253)
+- [NDA Study #2281](https://nda.nih.gov/edit_collection.html?id=2281)
 - [NDA Study #2804](https://nda.nih.gov/edit_collection.html?id=2804)
+- [NDA Study #2828](https://nda.nih.gov/edit_collection.html?id=2828)
+- [NDA Study #2834](https://nda.nih.gov/edit_collection.html?id=2834)
+- [NDA Study #2900](https://nda.nih.gov/edit_collection.html?id=2900)
 - [NDA Study #3005](https://nda.nih.gov/edit_collection.html?id=3005)
 
+Selective eating data (CEBQ) are only available in #2804 and #3005.
 Due to NDA data sharing policies, raw data are **not included** in this repository.
 
 ---
@@ -34,21 +48,22 @@ Due to NDA data sharing policies, raw data are **not included** in this reposito
 
 | Construct               | Instrument                                |
 |------------------------|--------------------------------------------|
-| Oral Sensory Sensitivity | Sensory Profile (SP), Oral Processing items |
+| Oral Sensory Sensitivity | Variations of the Sensory Profile (AASP, SP, SSP), Oral Processing items |
 | Selective Eating        | Child Eating Behavior Questionnaire (CEBQ) |
-| Emotion Dysregulation   | Child Behavior Checklist (CBCL) subscales  |
+| Emotion Dysregulation   | Child Behavior Checklist Dysregulation Profile  |
 | Parental Mental Health  | Adult Behavior Checklist (ABCL)            |
-| Covariates              | Age, Sex, IQ, ASD Severity (SRS)           |
+| Covariates              | Age, Race, Sex, ASD Severity (SRS)           |
 
 
 ---
 
 ## Methods Summary
-
-- Sensory dimensions (taste, texture, smell) derived via PCA.
-- Emotion dysregulation modeled via linear regression (Aim 1), mediation (Aim 2), and moderation (Aim 3).
-- False Discovery Rate (FDR) correction applied across outcome subscales within each modality.
-- Bootstrapped indirect effects and interaction plots used for interpretation.
+- Harmonization: Oral/taste/smell items z-standardized and combined across sensory measures; PCA used to derive modality-level sensitivity scores.
+- Aim 1: Linear regressions testing direct effects of oral sensitivity on CBCL-DP.
+- Aim 2: Moderation models testing oral sensitivity modalities × parental mental health interactions.
+- Aim 3: Exploratory mediation models testing selective eating as a pathway.
+- Controls: Age, sex, race, ASD severity (SRS).
+- Statistical rigor: False Discovery Rate (FDR) corrections for multiple testing; bootstrap resampling (5,000 resamples) for mediation; interaction plots for moderation.
 
 ---
 
