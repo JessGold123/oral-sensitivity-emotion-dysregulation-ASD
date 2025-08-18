@@ -50,7 +50,7 @@ Due to NDA data sharing policies, raw data are **not included** in this reposito
 |------------------------|--------------------------------------------|
 | Oral Sensory Sensitivity | Variations of the Sensory Profile (AASP, SP, SSP), Oral Processing items |
 | Selective Eating        | Child Eating Behavior Questionnaire (CEBQ) |
-| Emotion Dysregulation   | Child Behavior Checklist Dysregulation Profile  |
+| Emotion Dysregulation   | Child Behavior Checklist Dysregulation Profile (CBCL-DP) |
 | Parental Mental Health  | Adult Behavior Checklist (ABCL)            |
 | Covariates              | Age, Race, Sex, ASD Severity (SRS)           |
 
@@ -64,6 +64,11 @@ Due to NDA data sharing policies, raw data are **not included** in this reposito
 - Aim 3: Exploratory mediation models testing selective eating as a pathway.
 - Controls: Age, sex, race, ASD severity (SRS).
 - Statistical rigor: False Discovery Rate (FDR) corrections for multiple testing; bootstrap resampling (5,000 resamples) for mediation; interaction plots for moderation.
+
+---
+
+## Proposal Updates
+- Version 2 uplodaed on August 18, 2025. Due to surprisingly small sample sizes from the two datasets originally selected, we pivoted to include all datasets from the NDA archive that collected data from autistic individuals via the CBCL and a variation of the Sensory Profile. 
 
 ---
 
