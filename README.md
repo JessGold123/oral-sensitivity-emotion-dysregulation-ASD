@@ -27,7 +27,7 @@ Novel aspects of this project include:
 
 ## Data Sources
 
-Analyses will use data from the following NDA datasets, both of which include relevant measures:
+Analyses will use data from the following NDA datasets, all of which include relevant measures:
 - [NDA Study #2021](https://nda.nih.gov/edit_collection.html?id=2021)
 - [NDA Study #2026](https://nda.nih.gov/edit_collection.html?id=2026)
 - [NDA Study #2251](https://nda.nih.gov/edit_collection.html?id=2251)
