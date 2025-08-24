@@ -63,7 +63,7 @@ Due to NDA data sharing policies, raw data are **not included** in this reposito
 ---
 
 ## Proposal Updates
-- Version 2 uplodaed on August 18, 2025. Due to surprisingly small sample sizes from the two datasets originally selected, we pivoted to include all datasets from the NDA archive that collected data from autistic individuals via the CBCL and a variation of the Sensory Profile (SP, SSP, AASP).
+- Version 2 uploaded on August 18, 2025. Due to surprisingly small sample sizes from the two datasets originally selected, we pivoted to include all datasets from the NDA archive that collected data from autistic individuals via the CBCL and a variation of the Sensory Profile (SP, SSP, AASP).
 - Version 3 uploaded on August 24, 2025. 5 of the 10 initially selected datasets (#2026, #2251, #2253, #2281, #2900) were excluded due to missing data. Of the five included, #2828 did not report CBCL item scores, so the 80% item completeness rule could not be applied to this dataset. #2834 only reported 10 of 12 oral sensory processing items but was included to increase sample size. EFA decisions were added.
   
 ---
