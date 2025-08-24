@@ -5,7 +5,7 @@
 This repository contains the proposal, documentation, and planned analysis code for a project exploring how oral sensory sensitivity contributes to emotion dysregulation in children with autism spectrum disorder (ASD). The study leverages large-scale data from the NIH Data Archive (NDA) and applies a systems-level perspective by examining both child traits and family context.
 
 Novel aspects of this project include:
-- **Data-driven measurement**: Harmonizing oral/taste/smell items across multiple Sensory Profile variants using principal components analysis (PCA).
+- **Data-driven measurement**: Harmonizing oral/taste/smell items across multiple Sensory Profile variants using exploratory factor analysis (EFA).
 - **Focus on emotion regulation**: Positioning oral sensory sensitivity as a regulatory trait, moving beyond feeding behavior alone.
 - **Family systems perspective**: Testing parental mental health as a moderator of child outcomes.
 - **Exploratory pathways**: Evaluating selective eating as a potential mediator between sensory sensitivity and dysregulation.
