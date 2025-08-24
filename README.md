@@ -29,14 +29,9 @@ Novel aspects of this project include:
 
 Analyses will use data from the following NDA datasets, all of which include relevant measures:
 - [NDA Study #2021](https://nda.nih.gov/edit_collection.html?id=2021)
-- [NDA Study #2026](https://nda.nih.gov/edit_collection.html?id=2026)
-- [NDA Study #2251](https://nda.nih.gov/edit_collection.html?id=2251)
-- [NDA Study #2253](https://nda.nih.gov/edit_collection.html?id=2253)
-- [NDA Study #2281](https://nda.nih.gov/edit_collection.html?id=2281)
 - [NDA Study #2804](https://nda.nih.gov/edit_collection.html?id=2804)
 - [NDA Study #2828](https://nda.nih.gov/edit_collection.html?id=2828)
 - [NDA Study #2834](https://nda.nih.gov/edit_collection.html?id=2834)
-- [NDA Study #2900](https://nda.nih.gov/edit_collection.html?id=2900)
 - [NDA Study #3005](https://nda.nih.gov/edit_collection.html?id=3005)
 
 Selective eating data (CEBQ) are only available in #2804 and #3005.
@@ -58,8 +53,8 @@ Due to NDA data sharing policies, raw data are **not included** in this reposito
 ---
 
 ## Methods Summary
-- Harmonization: Oral/taste/smell items z-standardized and combined across sensory measures; PCA used to derive modality-level sensitivity scores.
-- Aim 1: Linear regressions testing direct effects of oral sensitivity on CBCL-DP.
+- Harmonization: Oral/taste/smell items will be reverse-scored as necessary to ensure higher scores indicate greeater sensitivity; EFA used to derive modality-level sensitivity scores.
+- Aim 1: Linear regressions testing direct effects of oral sensitivity modalities on CBCL-DP.
 - Aim 2: Moderation models testing oral sensitivity modalities × parental mental health interactions.
 - Aim 3: Exploratory mediation models testing selective eating as a pathway.
 - Controls: Age, sex, race, ASD severity (SRS).
@@ -68,8 +63,9 @@ Due to NDA data sharing policies, raw data are **not included** in this reposito
 ---
 
 ## Proposal Updates
-- Version 2 uplodaed on August 18, 2025. Due to surprisingly small sample sizes from the two datasets originally selected, we pivoted to include all datasets from the NDA archive that collected data from autistic individuals via the CBCL and a variation of the Sensory Profile. 
-
+- Version 2 uplodaed on August 18, 2025. Due to surprisingly small sample sizes from the two datasets originally selected, we pivoted to include all datasets from the NDA archive that collected data from autistic individuals via the CBCL and a variation of the Sensory Profile (SP, SSP, AASP).
+- Version 3 uploaded on August 24, 2025. 5 of the 10 initially selected datasets (#2026, #2251, #2253, #2281, #2900) were excluded due to missing data. Dataset #2828 did not report CBCL item scores, so the 80% item completeness rule could not be applied to CBCL subscales. EFA decisions were outlined.
+  
 ---
 
 ## License
